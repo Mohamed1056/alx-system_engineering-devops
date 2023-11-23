@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#This script is for counting from 1 to 10 writing BestSchool
+
+i=0
+while [ $i -lt 10 ]
+do
+	echo "Best School"
+	((  i++ ))
+done
