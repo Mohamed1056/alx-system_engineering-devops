@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#script to print Best School 8 times
+#for the iteration 4th it will print bad luck
+#for the iteration 8th it will print good luck
+
+i=0
+while [ $i -lt 10 ]
+do
+	if [ $i -eq 3 ]
+	then
+		echo "bad luck"
+	elif [ $i -eq 7 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	(( i++ ))
+done
