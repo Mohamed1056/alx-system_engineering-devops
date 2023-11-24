@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#kills the process
+#get the pid of the process
+id=$(pgrep "bash ./4-to_infinity_and_beyond" -f)
+#now checking the pid
+if [ -n "$id" ]
+then
+	kill -15 "$id"
+fi
