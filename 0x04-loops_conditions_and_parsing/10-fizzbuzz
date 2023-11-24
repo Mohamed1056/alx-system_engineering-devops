@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # script to print nums from 1 to 100
 # if the num devisable by 3 and 5 print FizzBuzz
 # if the num is devisable by 3 print Fizz
