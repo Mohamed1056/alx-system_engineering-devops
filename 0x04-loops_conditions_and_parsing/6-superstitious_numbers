@@ -1,25 +1,17 @@
 #!/usr/bin/env bash
-
+# script for printing the nums from 1 to 20
+# after 4 writes bad luck from china
+# after 9 writes bad luck from japan
+# after 17 writes bad luck from italy
 count=1
 
-while [ $count -le 20 ]; do
-    case $count in
-        4)
-            echo "$count"
-            echo "bad luck from China"
-            ;;
-        9)
-            echo "$count"
-            echo "bad luck from Japan"
-            ;;
-        17)
-            echo "$count"
-            echo "bad luck from Italy"
-            ;;
-        *)
-            echo $count
-            ;;
-    esac
-
-    ((count++))
+while [ $count -le 20 ]
+do
+	echo "$count"
+	case $count in
+		"4") echo "bad luck from China";;
+		"9") echo "bad luck from Japan";;
+		"17") echo "bad luck from Italy";;
+	esac
+	(( count ++ ))
 done
