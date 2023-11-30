@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Displayslisening ports
+#PID and the name of the programs
+netstat -lp
