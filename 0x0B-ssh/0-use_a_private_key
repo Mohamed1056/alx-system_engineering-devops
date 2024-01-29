@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# using ssh to conect to a server
+
+ssh ubuntu -i ~/.ssh/school
