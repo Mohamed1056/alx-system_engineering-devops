@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-# creates a connection
-Host *
-    PasswordAuthentication no
-    IdentityFile ~/.ssh/school
-    SendEnv Lang LC_*
-    HashKnownHosts yes
-    GSSAPIAuthentication yes
-    GSSAPIDelegateCredentials no
